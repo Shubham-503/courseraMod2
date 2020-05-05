@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment solution for module-2</title>
+    <style>
+        header h1 {
+            text-align: center;
+        }
+
+        .container {
+            box-sizing: border-box;
+            /* margin-right: 2px; */
+            /* width: 100%; */
+            /* justify-items: center; */
+        }
+
+        /* .box {
+            width: 32%;
+            float: left;
+            border: 2px solid black;
+            background: grey;
+            margin-left: 4px;
+        } 
+        width: 30%;
+    float: left;
+    border: 2px solid black;
+    background: grey;
+    margin-left: 10px;
+    margin-right: 36px;
+}*/
+    .box{
+        width: 30%;
+    float: left;
+    border: 2px solid black;
+    background: grey;
+    margin-left: 10px;
+    margin-right: 11px;
+    }
+
+        .name h3 {
+
+            float: right;
+            border: 2px solid #070707;
+            background-color: indianred;
+            clear: both;
+            margin: 6px;
+            padding: 6px 31px;
+            position: relative;
+            top: -8px;
+            right: -7px;
+        }
+
+        #Chicken {
+            background-color: indigo;
+            
+        }
+
+
+        .content {
+            clear: both;
+            padding: 14px;
+            z-index: -1;
+        }
+
+        /* @media (min-width: 992px) {
+            .box {
+                width: 30%;
+                float: left;
+                border: 2px solid black;
+                background: grey;
+                margin-left: 9px;
+                margin-right: 19px;
+            }
+
+            .midbox {
+                margin-left: 42px;
+    margin-right: 41px;
+}
+        } */
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            .box {
+                width: 46%;
+                float: left;
+                border: 2px solid black;
+                background: grey;
+                margin-left: 4px;
+                margin: 12px;
+            }
+            .lastbox{
+                width: 95%;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .box {
+                width: 98%;
+                float: left;
+                border: 2px solid black;
+                background: grey;
+                margin-left: 4px;
+                margin-top: 16px;
+
+            }
+
+        }
+
+        #Beef {
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <h1>Our Menu</h1>
+    </header>
+    <div class="container">
+        <div class="box">
+            <div class="name" id="Chicken">
+                <h3>Chicken</h3>
+            </div>
+            <div class="content">
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam amet iste voluptatibus non? Voluptatibus
+                est totam debitis neque voluptatem, nisi blanditiis consequatur architecto.
+            </div>
+
+
+
+        </div>
+        <div class="box midbox">
+            <div class="name " id="Beef">
+                <h3>Beef</h3>
+            </div>
+            <div class="content">
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam amet iste voluptatibus non? Voluptatibus
+                est totam debitis neque voluptatem, nisi blanditiis consequatur architecto.
+            </div>
+
+
+
+        </div>
+        <div class="box lastbox">
+            <div class="name " id="Sushi">
+                <h3>Sushi</h3>
+            </div>
+            <div class="content">
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam amet iste voluptatibus non? Voluptatibus
+                est totam debitis neque voluptatem, nisi blanditiis consequatur architecto.
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
