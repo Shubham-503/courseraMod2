@@ -1,0 +1,71 @@
+header h1 {
+    text-align: center;
+    font-family: 'Headland One', serif;
+}
+
+.container {
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+.box{
+width: 30%;
+float: left;
+border: 2px solid black;
+background: grey;
+margin-left: 10px;
+margin-right: 11px;
+}
+
+.name h3 {
+
+    float: right;
+    border: 2px solid #070707;
+    background-color: indianred;
+    clear: both;
+    margin: 6px;
+    padding: 6px 31px;
+    position: relative;
+    top: -8px;
+    right: -7px;
+}
+
+
+
+
+.content {
+    clear: both;
+    padding: 14px;
+    z-index: -1;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .box {
+        width: 46%;
+        float: left;
+        border: 2px solid black;
+        background: grey;
+        margin-left: 4px;
+        margin: 12px;
+    }
+    .lastbox{
+        width: 95%;
+    }
+}
+
+@media (max-width: 767px) {
+    .box {
+        width: 98%;
+        float: left;
+        border: 2px solid black;
+        background: grey;
+        margin-left: 4px;
+        margin-top: 16px;
+
+    }
+
+}
+
+
